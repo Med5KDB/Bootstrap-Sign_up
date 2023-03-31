@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fira+Code:wght@300&family=Nova+Round&family=Overpass+Mono:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Variables */
+:root{
+    --primary-font-family:'Fira Code', sans-serif;
+    --white-color:#f5f8fa;
+    --gray:#5e6278;
+    --gray-1:#e3e3e3;
+}
+body{
+    font-family:var(--primary-font-family);
+    font-size: 14px;
+    /* background-color: var(--white-color); */
+}
+.wrapper {
+    padding: 0 0 100px;
+    min-height: 100%;
+}
+.wrapper input{
+    background-color: var(--white-color);
+    border-color: var(--white-color);
+    color: var(--gray);
+}
+.wrapper input:focus{
+    box-shadow: none;
+}
+.wrapper .submit_btn{
+    padding: 15px;
+    font-weight: 500;
+    transition: 0.3s linear ease-in-out !important;
+    z-index: 1;
+}
+.wrapper .login_with{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out !important;
+}
+
+.wrapper .submit_btn:focus,
+.wrapper .login_with:focus{
+    box-shadow: none !important;
+}
+.wrapper .login_with img{
+    max-width: 8%;
+}
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+  
+
+
